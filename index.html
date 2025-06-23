@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Latest News</h1>
+        <label for="domain">Enter News Topic:</label>
+        <input type="text" id="domain" placeholder="e.g. Tesla, Cricket">
+        <br>
+        <label for="date"></label>
+        <input type="date" id="date">
+        
+        <button onclick="fetchNews()">Get News</button>
+
+        <div id="news-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

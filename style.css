@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    max-width: 700px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+
+
+/* Inputs */
+input, button {
+    width: 90%;
+    padding: 12px;
+    margin: 8px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Input fields */
+input {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    outline: none;
+}
+
+/* Input placeholder color */
+input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Button */
+button {
+    background: #ff7b00;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #e66a00;
+}
+
+/* News Container */
+#news-container {
+    margin-top: 20px;
+    text-align: left;
+}
+
+/* News Article */
+.news-article {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.news-article:hover {
+    transform: scale(1.03);
+}
+
+/* News Title */
+.news-article h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #ffb400;
+}
+
+/* News Description */
+.news-article p {
+    margin: 8px 0;
+    color: #ddd;
+}
+
+/* News Timestamp */
+.news-article small {
+    font-size: 14px;
+    color: #bbb;
+}
